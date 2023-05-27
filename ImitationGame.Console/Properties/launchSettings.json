@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ImitationGame.Console": {
+      "commandName": "Project",
+      "commandLineArgs": "\"d:\\temp\\tekst.txt\""
+    }
+  }
+}
