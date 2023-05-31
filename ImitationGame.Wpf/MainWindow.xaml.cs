@@ -63,7 +63,7 @@ namespace ImitationGame.Wpf
             var encryptedText = enigma.Decrypt(EncryptedText.Text, number);
 
             DecryptedText.Text = "Decrypting...";
-            await Task.Delay(10000);
+            //await Task.Delay(10000);
 
             DecryptedText.Text = encryptedText;
         }
@@ -82,7 +82,7 @@ namespace ImitationGame.Wpf
             var encryptedText = enigma.Encrypt(DecryptedText.Text, number);
 
             EncryptedText.Text = "Encrypting...";
-            await Task.Delay(10000);
+            //await Task.Delay(10000);
 
             EncryptedText.Text = encryptedText;
         }
